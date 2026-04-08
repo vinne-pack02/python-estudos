@@ -6,15 +6,15 @@ c = int(input('Ultimo número: '))
 
 if b < a and b < c:
     menor = b
-if c < a and c < b:
+elif c < a and c < b:
     menor = c
-if a < b and a < c:
+elif a < b and a < c:
     menor = a
-if b > a and b > c:
+elif b > a and b > c:
     maior = b
-if c > a and c > b:
+elif c > a and c > b:
     maior = c
-if a > b and a > c:
+elif a > b and a > c:
     maior = a
      
     print('o menor valor digitado  foi {}\n'.format(maior))
